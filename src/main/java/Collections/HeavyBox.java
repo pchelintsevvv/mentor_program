@@ -1,8 +1,6 @@
 package Collections;
 
-import java.util.Iterator;
 import java.util.List;
-import java.util.Set;
 
 public class HeavyBox implements Comparable<HeavyBox> {
     int weight;
@@ -39,9 +37,8 @@ public class HeavyBox implements Comparable<HeavyBox> {
     }
 
     public static void printArrayWithIterator(List<HeavyBox> list) {
-        Iterator<HeavyBox> iterator = list.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
+        for (HeavyBox heavyBox : list) {
+            System.out.println(heavyBox);
         }
     }
 

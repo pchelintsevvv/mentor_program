@@ -2,7 +2,6 @@ package Lambda;
 
 import Collections.HeavyBox;
 
-import java.util.Random;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -13,7 +12,7 @@ public class Main {
         /**
          Написать лямбда выражение для интерфейса Printable, который содержит один метод void print().
          */
-        Printable printable = s -> System.out.println(s);
+        Printable printable = System.out::println;
         printable.print("Printed from 'Printable' interface");
 
         /**

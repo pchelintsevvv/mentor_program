@@ -1,6 +1,8 @@
 package Collections.Task9;
 
-public class Cat extends Pet{
+import java.io.Serializable;
+
+public class Cat extends Animal implements Serializable {
     public Cat(String pet) {
         super(pet);
     }

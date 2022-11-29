@@ -19,7 +19,6 @@ public class ArrayListDemo {
         heavyBoxList.add(new HeavyBox(6));
         heavyBoxList.add(new HeavyBox(9));
         heavyBoxList.add(new HeavyBox(41));
-
         /**
          2. Распечатать его содержимое используя for each.
          */

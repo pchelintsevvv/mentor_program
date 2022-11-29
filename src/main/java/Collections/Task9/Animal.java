@@ -1,9 +1,9 @@
 package Collections.Task9;
 
-public class Pet {
+public class Animal {
     String pet;
 
-    public Pet(String pet) {
+    public Animal(String pet) {
         this.pet = pet;
     }
 }

@@ -47,7 +47,5 @@ public class Demo {
 
         System.out.println("\nStudents after updating info\n");
         students.printListOfStudents(studentList);
-
-
     }
 }

@@ -43,8 +43,7 @@ public class Student {
     public void getGraduatedStudents() {
         if (graduated.size() > 1) {
             System.out.println("Graduated students");
-        }
-        else if (graduated.size() == 1) {
+        } else if (graduated.size() == 1) {
             System.out.println("Graduated student");
         } else {
             return;

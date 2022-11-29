@@ -9,7 +9,7 @@ public class Main {
          Создайте класс Pet и его наследников Cat, Dog, Parrot.
          Создайте отображение из домашних животных, где в качестве ключа выступает имя животного, а в качестве значения класс Pet.
          */
-        Map<String, Pet> map = new HashMap<>();
+        Map<String, Animal> map = new HashMap<>();
         map.put("Vaska", new Dog("Dog"));
         map.put("Murzic", new Cat("Cat"));
         map.put("Gosha", new Parrot("Parrot"));
@@ -20,7 +20,7 @@ public class Main {
         printPetKeySet(map);
     }
 
-    public static void printPetKeySet(Map<String, Pet> map){
+    public static void printPetKeySet(Map<String, Animal> map) {
         for (String pet : map.keySet()) {
             System.out.println(pet);
         }
