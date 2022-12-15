@@ -3,7 +3,7 @@ package Collections.Task8;
 import java.util.*;
 
 public class Student {
-    String name;
+    String name;   //access modifiers
     String group;
     int course;
     Map<Subject, Integer> results;

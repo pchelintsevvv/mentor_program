@@ -42,6 +42,7 @@ public class Main {
 
     public static <T> void countValues(String value, Collection<T> collection) {
         System.out.println(collection.stream().filter(value::equals).count());
+        //I guess there should be method 'contains', not equals
     }
 
     public static <T> void getFirstElementOfCollections(Collection<T> collection, T value) {

@@ -3,7 +3,8 @@ package Collections;
 import java.util.List;
 
 public class HeavyBox implements Comparable<HeavyBox> {
-    int weight;
+    int weight;     //Better to use access modifier 'private'
+                    // if you don't plan to use this variable in child classes
 
     public HeavyBox(int weight) {
         this.weight = weight;

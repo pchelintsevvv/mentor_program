@@ -6,7 +6,7 @@ import java.util.List;
 public class Demo {
 
     static List<Student> studentList = new ArrayList<>();
-    static Student students = new Student();
+    static Student students = new Student(); //name should be student not students
 
     public static void main(String[] args) {
         /**

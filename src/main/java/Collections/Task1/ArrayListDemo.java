@@ -13,7 +13,7 @@ public class ArrayListDemo {
          1. Создать динамический массив, содержащий объекты класса HeavyBox.
          */
         List<HeavyBox> heavyBoxList = new ArrayList<>();
-        heavyBoxList.add(new HeavyBox(1));
+        heavyBoxList.add(new HeavyBox(2));
         heavyBoxList.add(new HeavyBox(3));
         heavyBoxList.add(new HeavyBox(5));
         heavyBoxList.add(new HeavyBox(6));

@@ -1,7 +1,7 @@
 package Collections.Task7;
 
 public class Toy {
-    String name;
+    String name;   //access modifiers
     int price;
 
     public Toy(String name, int price) {

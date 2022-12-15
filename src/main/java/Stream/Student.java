@@ -7,7 +7,7 @@ public class Student {
 
     public String getName() {
         return name;
-    }
+    }   //don't create methods which you will not use
 
     public int getAge() {
         return age;
